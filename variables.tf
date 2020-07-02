@@ -24,7 +24,7 @@ variable "global_region" {
 }
 
 variable "global_ssh_key_name" {
-  default = "will-demo"
+  default = "dlectronique-terraform-training-key"
 }
 
 ##### Tag Variables #####
@@ -37,7 +37,7 @@ variable "tag_environment" {
 }
 
 variable "tag_owner" {
-  description = "Tag for owner - example: Will"
+  description = "Tag for owner - example: Dominique"
 }
 
 ##### VPC Variables #####

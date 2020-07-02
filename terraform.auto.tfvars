@@ -6,12 +6,12 @@ global_public_subnets  = ["10.0.20.0/24", "10.0.21.0/24", "10.0.22.0/24"]
 
 ##### Tag Variables #####
 tag_orchestration = "Terraform"
-tag_environment   = "willf-demo"
-tag_owner         = "willfarley"
+tag_environment   = "dlectro-demo"
+tag_owner         = "dlectronique"
 
 ##### VPC Variables #####
 vpc_nat  = "false"
-vpc_name = "will-vpc"
+vpc_name = "domi-vpc"
 
 ##### Bastion Variables #####
-bastion_ssh_ingress_cidr = "81.156.23.249/32"
+bastion_ssh_ingress_cidr = "89.39.136.18/32"
