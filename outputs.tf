@@ -13,6 +13,6 @@ output "private_subnets" {
   value       = "${module.vpc.private_subnets}"
 }
 
-output "bastion_sg" {
-  value = "${module.bastion.sg_id}"
-}
+##output "bastion_sg" {
+##  value = "${module.bastion.sg_id}"
+##}
