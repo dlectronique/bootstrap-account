@@ -18,7 +18,7 @@ variable "global_public_subnets" {
   type        = "list"
 }
 
-variable "global_region" {
+variable "region" {
   description = "Region where to run Terraform in AWS"
   default     = "eu-west-2"
 }

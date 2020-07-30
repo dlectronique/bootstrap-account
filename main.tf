@@ -3,9 +3,8 @@ terraform {
 }
 
 provider "aws" {
-  profile = default
-  region = var.global_region
-#  version = "~> 2.0"
+  profile = "default"
+  region  = var.region
 }
 
 module "vpc" {
